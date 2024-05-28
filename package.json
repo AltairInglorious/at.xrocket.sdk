@@ -1,7 +1,11 @@
 {
   "name": "at.xrocket.sdk",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AltairInglorious/at.xrocket.sdk.git"
@@ -10,7 +14,7 @@
     "lint": "bunx @biomejs/biome check --apply ./src",
     "prepublishOnly": "npx tsc"
   },
-  "author": "",
+  "author": "amadeustech.dev",
   "license": "ISC",
   "description": "",
   "dependencies": {
