@@ -1,0 +1,25 @@
+{
+  "name": "at.xrocket.sdk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AltairInglorious/at.xrocket.sdk.git"
+  },
+  "scripts": {
+    "biome:format": "bunx @biomejs/biome format ./src --write",
+    "biome:lint": "bunx @biomejs/biome lint ./src",
+    "biome:check": "bunx @biomejs/biome check --apply ./src",
+    "prepublishOnly": "npx tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^20.12.12",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.7.3"
+  }
+}
